@@ -1,39 +1,51 @@
-# Production Hub — Beta Website (Winter 2027)
+Production Hub – Beta Website
 
-This is a SIMPLE first-draft theatre production website for course submission. It uses only HTML, CSS and JavaScript and can be hosted free with GitHub Pages. It intentionally uses a basic layout rather than a finished professional design. The instructor may still expect the individual features to work.
+This is the first version of my theatre production website. I made it using HTML, CSS, and JavaScript. I have added the main requirements for the assignment, but there are still some things I want to improve as I continue working on it during the Winter term.
 
-## Files
-- `index.html`: website content and navigation
-- `styles.css`: basic design (edit colors and spacing here)
-- `script.js`: calendar events and navigation
-- `downloads/`: two example public release form PDFs
-- `private-docs/`: two actual password-encrypted example PDF files
+Website Files
 
-## Requirements covered
-1. Announcements: on the landing page, immediately after a short intro
-2. Rehearsal calendar: clickable calendar in Schedule section
-3. Biography form: in Cast & Crew section (connected to Formspree)
-4. Management contact form: Contact section (connected to Formspree)
-5. Contact table: sample name/email/phone table
-6. Protected documents: two encrypted PDFs (password in your private eClass submission, not on the public website)
-7. Public downloads: participation and media-release PDFs
-8. Sharing area: three simple placeholder/archive cards
-9. App integration: Google Maps embedded in the page
+index.html – Main website page
 
-## IMPORTANT — Before submitting
-- Both forms are configured for the Formspree endpoints provided by the site owner. Bio Submission: `https://formspree.io/f/xeagvwqz`; Contact Management: `https://formspree.io/f/xppdkezo`. Formspree handles submissions and sends notifications to the email configured in that account. Verify the Formspree account email and send one test submission from each form after publishing. Formspree may require email/account confirmation.
-- Replace fictional names, addresses, dates, and announcement examples with real or clearly labelled course-safe information. Do not publish other people's private contact details without permission.
-- The two private PDFs are encrypted but their links/files are publicly downloadable; the content cannot be read without the password. Do not put the password in a public file. If using real sensitive materials, prefer restrictive private storage.
-- Check the live Google Maps embed and file links after publishing.
-- The `private-docs` PDF password is provided in the delivery message. Put it in the private eClass submission; it is intentionally not in this folder.
-- Keep the live site accessible through the end of the April 2027 exam period.
+styles.css – Colours and layout of the website
 
-## Free publishing with GitHub Pages
-1. Create a free GitHub account and a new **public** repository called `production-hub`.
-2. Upload the CONTENTS of this folder directly to the repo's root (not the folder itself).
-3. Go to **Settings > Pages > Deploy from a branch**, choose `main` and `/(root)`, Save.
-4. Visit `https://YOUR-USERNAME.github.io/production-hub/` when publishing completes.
-5. Test the calendar, contact form, biography form, public PDFs, protected PDFs and map on the published website.
-6. Submit the live URL and the protected-PDF password privately to eClass. No username is needed for the protected PDFs.
+script.js – Calendar and other website features
 
-For your course, beta means first submission for feedback; it does not mean missing essential requirements.
+downloads/ – Forms that can be downloaded
+
+private-docs/ – Password-protected PDF files
+
+Website Features
+
+Announcements: A section on the homepage for important updates.
+
+Calendar: A calendar that shows rehearsal dates and activities.
+
+Biography Form: A form where people can submit their biography.
+
+Management Contact: A form for contacting the production manager.
+
+Contact Sheet: A table with names, emails, and phone numbers.
+
+Protected Documents: PDF documents that require a password to open.
+
+Public Downloads: Forms that people can download from the website.
+
+Sharing Section: A section for sharing photos, ideas, and other materials.
+
+App Integration: Google Maps has been added to the website.
+
+Current Progress
+
+So far, I have added all the main sections needed for the assignment. I also connected the biography and contact forms using Formspree so people can submit information through the website.
+
+Some sections still have example information, such as the rehearsal dates, announcements, and contact details. I will update these as I continue working on the website.
+
+I also want to make some changes to the design and make the website easier to use once I receive feedback.
+
+Publishing
+
+I am using GitHub Pages to publish my website for free.
+
+Website link: https://sukhi10.github.io/production-hub/
+
+I will be checking the forms, calendar, downloads, and protected documents to make sure everything works properly. The password for the protected documents will be submitted separately on eClass.
